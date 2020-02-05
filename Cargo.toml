@@ -1,0 +1,11 @@
+[package]
+name = "oauth2-error"
+version = "0.1.0"
+authors = ["George Malayil Philip <george.malayil@roguemonkey.in>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+failure = "0.1"
+oauth2 = {version = "3.0.0-alpha.9", features = ["futures-03", "reqwest-010"], default-features = false}
